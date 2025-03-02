@@ -19,6 +19,11 @@ The following is a sample request payload for a DynamoDB create item operation:
 
 <img width="788" alt="image" src="https://github.com/user-attachments/assets/c8b09e1e-a771-457e-8ffd-19748af06261" />
 
+The following is a sample request payload for a DynamoDB read item operation:
+
+<img width="786" alt="image" src="https://github.com/user-attachments/assets/7dbc059c-173d-42a8-93cc-44ccc782b364" />
+
+
 
 
 
