@@ -132,6 +132,13 @@ Create an API using API Gateway.
 <img width="579" alt="image" src="https://github.com/user-attachments/assets/c8b4ec53-bfa0-4ef6-94a3-466eedd8902c" />
 <img width="577" alt="image" src="https://github.com/user-attachments/assets/e4008e70-665b-4c0b-82d1-38fcb29a79a5" />
 
+## Test2 with memory 1024 MB
+<img width="572" alt="image" src="https://github.com/user-attachments/assets/1583c72e-4bcb-4fbf-aed3-9acc8b7753f2" />
+<img width="574" alt="image" src="https://github.com/user-attachments/assets/b27e1e7e-d7df-4662-ac68-2b72491bbb66" />
+
+
+
+
 
 
 
