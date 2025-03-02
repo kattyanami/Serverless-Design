@@ -83,6 +83,24 @@ Create a DynamoDB table that the Lambda function uses.
 
 ![image](https://github.com/user-attachments/assets/dec4d04e-a625-4128-9d7a-7d85878a8149)
 
+## Create API  
+Create an API using API Gateway.  
+
+### To create the API  
+
+- Go to the **API Gateway** console.  
+- Click **Create API**.
+  ![image](https://github.com/user-attachments/assets/802c2211-ec93-47c0-9aff-5a2002a2f5d4)
+- Click **Scroll down and select "Build" for REST API**.
+  ![image](https://github.com/user-attachments/assets/d053a4af-6670-49f4-9c27-55d87d71b9ae)
+
+- Click **Give the API name as "DynamoDBOperations", keep everything as is, click "Create API"**.
+  ![image](https://github.com/user-attachments/assets/60342c9f-5f0b-4c1f-b127-2e6e9bbd8297)
+
+  
+
+
+
       
 
 
