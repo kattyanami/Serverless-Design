@@ -69,16 +69,18 @@ Let's test our newly created function. We haven't created DynamoDB and the API y
 ![image](https://github.com/user-attachments/assets/cb84f4a6-a584-4f66-a039-f17b99e50b8d)
 
 We're all set to create DynamoDB table and an API using our lambda as backend!
-## Create DynamoDB Table
-Create DynamoDB table that Lambda function uses.
+## Create DynamoDB Table  
+Create a DynamoDB table that the Lambda function uses.  
 
-## To create a DynamoDB table
-1.open the DynamoDB console.
-2.Choose Create table.
-3.Create a table with the following settings.
-      . Table name – lambda-apigateway
-      . Primary key – id (string)
-4.Choose Create.
+### To create a DynamoDB table  
+
+- Open the **DynamoDB** console.  
+- Choose **Create table**.  
+- Create a table with the following settings:  
+  - **Table name** – `lambda-apigateway`  
+  - **Primary key** – `id` (String)  
+- Choose **Create**.  
+
 ![image](https://github.com/user-attachments/assets/dec4d04e-a625-4128-9d7a-7d85878a8149)
 
       
