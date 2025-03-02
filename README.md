@@ -38,6 +38,18 @@ To create an execution role
    .Permissions – Custom policy with permission to DynamoDB and CloudWatch Logs. This custom policy has the permissions that the function 
                   needs to write data to DynamoDB and upload logs.
 
+## Creating an Execution Role  
+
+- Open the **Roles** page in the IAM console.  
+- Choose **Create role**.  
+- Create a role with the following properties:  
+  - **Trusted entity** – Lambda  
+  - **Role name** – `lambda-apigateway-role`  
+  - **Permissions** – Custom policy with permission to:  
+    - Write data to **DynamoDB**  
+    - Upload logs to **CloudWatch Logs**  
+
+
 
 
 
