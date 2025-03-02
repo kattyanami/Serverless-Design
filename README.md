@@ -99,6 +99,25 @@ Create an API using API Gateway.
 - Click **Each API is collection of resources and methods that are integrated with backend HTTP endpoints, Lambda functions, or other AWS services. Typically, API resources are organized in a resource tree according to the application logic. At this time you only have the root resource, but let's add a resource next**.
 - Click "Actions", then click "Create Resource"
 ![image](https://github.com/user-attachments/assets/bb4bf355-0c8e-4603-aebf-2a80a01966fc)
+- **Input "DynamoDBManager" in the Resource Name, Resource Path will get populated. Click "Create Resource"**.
+![image](https://github.com/user-attachments/assets/34d89b44-b31d-4330-9b0d-e4b2c6a8f5ad)
+- **Let's create a POST Method for our API. With the "/dynamodbmanager" resource selected, Click "Actions" again and click "Create Method"**
+![image](https://github.com/user-attachments/assets/8ec67bde-7479-4651-98a4-a59f3e0a885c)
+- Select "POST" from drop down , then click checkmark
+![image](https://github.com/user-attachments/assets/520a14c0-1812-4a92-8117-6a8a1669927e)
+- The integration will come up automatically with "Lambda Function" option selected. Select "LambdaFunctionOverHttps" function that we created earlier. As you start typing the name, your function name will show up.Select and click "Save". A popup window will come up to add resource policy to the lambda to be invoked by this API. Click "Ok"
+![image](https://github.com/user-attachments/assets/5417d65a-43f7-42e1-86a5-f69bcf69bddc)
+- Our API-Lambda integration is done!
+## Deploy API
+- In this step, you deploy the API that you created to a stage called prod.
+- Click "Actions", select "Deploy API"
+![image](https://github.com/user-attachments/assets/04d4dfd6-2264-4444-925a-d210e91821be)
+
+
+
+
+
+
 
   
 
