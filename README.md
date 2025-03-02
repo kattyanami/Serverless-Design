@@ -5,7 +5,7 @@ Let's start with the High Level Design.
 <img width="853" alt="Screenshot 2025-03-02 at 7 38 58 AM" src="https://github.com/user-attachments/assets/87292ff6-ac8a-4e13-9c38-7add07b44b09" />
 
 
-An Amazon API Gateway is a collection of resources and methods. For this tutorial, you create one resource (DynamoDBManager) and define one method (POST) on it. The method is backed by a Lambda function (LambdaFunctionOverHttps). That is, when you call the API through an HTTPS endpoint, Amazon API Gateway invokes the Lambda function.
+An Amazon API Gateway is a collection of resources and methods. For this, you create one resource (DynamoDBManager) and define one method (POST) on it. The method is backed by a Lambda function (LambdaFunctionOverHttps). That is, when you call the API through an HTTPS endpoint, Amazon API Gateway invokes the Lambda function.
 
 The POST method on the DynamoDBManager resource supports the following DynamoDB operations:
 
@@ -30,12 +30,13 @@ Create the execution role that gives your function permission to access AWS reso
 
 To create an execution role
 
-Open the roles page in the IAM console.
-Choose Create role.
-Create a role with the following properties.
-Trusted entity – Lambda.
-Role name – lambda-apigateway-role.
-Permissions – Custom policy with permission to DynamoDB and CloudWatch Logs. This custom policy has the permissions that the function needs to write data to DynamoDB and upload logs.
+1.Open the roles page in the IAM console.
+2.Choose Create role.
+3.Create a role with the following properties.
+   .Trusted entity – Lambda.
+   .Role name – lambda-apigateway-role.
+   .Permissions – Custom policy with permission to DynamoDB and CloudWatch Logs. This custom policy has the permissions that the function 
+                  needs to write data to DynamoDB and upload logs.
 
 
 
