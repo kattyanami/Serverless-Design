@@ -24,6 +24,7 @@ The following is a sample request payload for a DynamoDB read item operation:
 <img width="786" alt="image" src="https://github.com/user-attachments/assets/7dbc059c-173d-42a8-93cc-44ccc782b364" />
 
 Setup
+
 Create Lambda IAM Role
 Create the execution role that gives your function permission to access AWS resources.
 
