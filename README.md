@@ -96,6 +96,9 @@ Create an API using API Gateway.
 
 - Click **Give the API name as "DynamoDBOperations", keep everything as is, click "Create API"**.
   ![image](https://github.com/user-attachments/assets/60342c9f-5f0b-4c1f-b127-2e6e9bbd8297)
+- Click **Each API is collection of resources and methods that are integrated with backend HTTP endpoints, Lambda functions, or other AWS services. Typically, API resources are organized in a resource tree according to the application logic. At this time you only have the root resource, but let's add a resource next**.
+- Click "Actions", then click "Create Resource"
+![image](https://github.com/user-attachments/assets/bb4bf355-0c8e-4603-aebf-2a80a01966fc)
 
   
 
