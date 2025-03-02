@@ -38,7 +38,10 @@ Create the execution role that gives your function permission to access AWS reso
   - **Role name** – `lambda-apigateway-role`  
   - **Permissions** – Custom policy with permission to:  
     - Read/Write data to **DynamoDB**  
-    - Upload logs to **CloudWatch Logs**  
+    - Upload logs to **CloudWatch Logs**
+
+<img width="765" alt="Screenshot 2025-03-02 at 8 23 41 AM" src="https://github.com/user-attachments/assets/3103916f-caf3-43c1-ae62-b135f34b8cc7" />
+
 
 
 
