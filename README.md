@@ -116,9 +116,21 @@ Create an API using API Gateway.
 ## Running our solution
 - The Lambda function supports using the create operation to create an item in your DynamoDB table. To request this operation, use the following JSON:
 ![image](https://github.com/user-attachments/assets/8256c075-449b-4435-9854-b33b7daf5a3c)
-- To execute our API from local machine, we are going to use Postman and Curl command. You can choose either method based on your convenience and familiarity.
+- To execute our API from local machine, we are going to use Postman. You can choose either method based on your convenience and familiarity.
 - **To run this from Postman, select "POST" , paste the API invoke url. Then under "Body" select "raw" and paste the above JSON. Click "Send". API should execute and return "HTTPStatusCode" 200**.
 ![image](https://github.com/user-attachments/assets/5a8b5ba0-7c54-4eed-924e-7e9277e8b533)
+- To validate that the item is indeed inserted into DynamoDB table, go to Dynamo console, select "lambda-apigateway" table, select "Items" tab, and the newly inserted item should be displayed.
+![image](https://github.com/user-attachments/assets/f8acbb16-2eb2-4563-9313-3b6d8325757f)
+- To get all the inserted items from the table, we can use the "list" operation of Lambda using the same API. Pass the following JSON to the API, and it will return all the items from the Dynamo table.
+![image](https://github.com/user-attachments/assets/67805c12-5c53-4f4d-af0c-e0e07c1b6ab6)
+
+![image](https://github.com/user-attachments/assets/48f85ea1-6cc7-4186-9fec-2fb1c623c5c0)
+
+## We have successfully created a serverless API using API Gateway, Lambda, and DynamoDB!
+Please clean up resources after it although it's free.
+
+
+
 
 
 
