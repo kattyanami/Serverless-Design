@@ -113,6 +113,16 @@ Create an API using API Gateway.
 - Click "Actions", select "Deploy API"
 ![image](https://github.com/user-attachments/assets/04d4dfd6-2264-4444-925a-d210e91821be)
 
+## Running our solution
+- The Lambda function supports using the create operation to create an item in your DynamoDB table. To request this operation, use the following JSON:
+![image](https://github.com/user-attachments/assets/8256c075-449b-4435-9854-b33b7daf5a3c)
+- To execute our API from local machine, we are going to use Postman and Curl command. You can choose either method based on your convenience and familiarity.
+     **To run this from Postman, select "POST" , paste the API invoke url. Then under "Body" select "raw" and paste the above JSON. Click "Send". API should execute and return "HTTPStatusCode" 200**.
+![image](https://github.com/user-attachments/assets/5a8b5ba0-7c54-4eed-924e-7e9277e8b533)
+
+
+
+
 
 
 
