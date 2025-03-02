@@ -23,21 +23,12 @@ The following is a sample request payload for a DynamoDB read item operation:
 
 <img width="786" alt="image" src="https://github.com/user-attachments/assets/7dbc059c-173d-42a8-93cc-44ccc782b364" />
 
-Setup
+Creating an Execution Role
 
 Create Lambda IAM Role
 Create the execution role that gives your function permission to access AWS resources.
 
-To create an execution role
-
-1.Open the roles page in the IAM console.
-2.Choose Create role.
-3.Create a role with the following properties.
-   .Trusted entity – Lambda.
-   .Role name – lambda-apigateway-role.
-   .Permissions – Custom policy with permission to DynamoDB and CloudWatch Logs. This custom policy has the permissions that the function 
-                  needs to write data to DynamoDB and upload logs.
-
+## Setup
 ## Creating an Execution Role  
 
 - Open the **Roles** page in the IAM console.  
@@ -46,7 +37,7 @@ To create an execution role
   - **Trusted entity** – Lambda  
   - **Role name** – `lambda-apigateway-role`  
   - **Permissions** – Custom policy with permission to:  
-    - Write data to **DynamoDB**  
+    - Read/Write data to **DynamoDB**  
     - Upload logs to **CloudWatch Logs**  
 
 
