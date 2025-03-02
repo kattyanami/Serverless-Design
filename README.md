@@ -42,6 +42,17 @@ Create the execution role that gives your function permission to access AWS reso
 
 <img width="765" alt="Screenshot 2025-03-02 at 8 23 41 AM" src="https://github.com/user-attachments/assets/3103916f-caf3-43c1-ae62-b135f34b8cc7" />
 
+## Create Lambda Function
+## To create the function
+
+## 1.Click "Create function" in AWS Lambda Console
+  ![image](https://github.com/user-attachments/assets/5cfca87a-fd6e-4e2b-89e7-32b679a7a5ff)
+## 2.Select "Author from scratch". Use name LambdaFunctionOverHttps , select Python 3.7 as Runtime. Under Permissions, select "Use an existing role", and select lambda-apigateway-role that we created, from the drop down
+## 3.Click "Create function"
+![image](https://github.com/user-attachments/assets/8b61f45d-711f-4e12-a666-06813383087d)
+## 4.Replace the boilerplate coding with the following code snippet and click "Save"
+
+
 
 
 
