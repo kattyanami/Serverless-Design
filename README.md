@@ -127,7 +127,10 @@ Create an API using API Gateway.
 ![image](https://github.com/user-attachments/assets/48f85ea1-6cc7-4186-9fec-2fb1c623c5c0)
 
 ## We have successfully created a serverless API using API Gateway, Lambda, and DynamoDB!
-Please clean up resources after it although it's free.
+## Let's test the solution using POSTMAN using POST method 
+- Test1 with memory 128 MB
+<img width="579" alt="image" src="https://github.com/user-attachments/assets/c8b4ec53-bfa0-4ef6-94a3-466eedd8902c" />
+
 
 
 
