@@ -51,6 +51,30 @@ Create the execution role that gives your function permission to access AWS reso
 ## 3.Click "Create function"
 ![image](https://github.com/user-attachments/assets/8b61f45d-711f-4e12-a666-06813383087d)
 ## 4.Replace the boilerplate coding with the following code snippet and click "Save"
+## Example Python Code
+![Screenshot 2025-03-02 at 10 40 07 AM](https://github.com/user-attachments/assets/082aab98-4881-44a3-adb1-1f301e1409d1)
+![image](https://github.com/user-attachments/assets/1f223641-b9cb-47ef-87d7-9a235b0d4e4c)
+
+## Test Lambda Function
+Let's test our newly created function. We haven't created DynamoDB and the API yet, so we'll do a sample echo operation. The function should output whatever input we pass.
+
+1. Click the arrow on "Select a test event" and click "Configure test events"
+   ![image](https://github.com/user-attachments/assets/4e6f2fd6-57ee-4ad0-941a-3f5a0b9e86e8)
+
+2. Paste the following JSON into the event. The field "operation" dictates what the lambda function will perform. In this case, it'd simply return the payload from input event as output. Click "Create" to save
+![image](https://github.com/user-attachments/assets/7f9d1ee5-4a5e-4a2f-b95e-448fe294d267)
+![image](https://github.com/user-attachments/assets/a00825ec-dc59-451d-b14b-93fea59163db)
+
+3. Click "Test", and it will execute the test event. You should see the output in the console
+![image](https://github.com/user-attachments/assets/cb84f4a6-a584-4f66-a039-f17b99e50b8d)
+
+We're all set to create DynamoDB table and an API using our lambda as backend!
+
+
+
+
+
+
 
 
 
