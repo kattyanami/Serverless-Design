@@ -130,6 +130,8 @@ Create an API using API Gateway.
 ## Let's test the solution using POSTMAN using POST method 
 - Test1 with memory 128 MB
 <img width="579" alt="image" src="https://github.com/user-attachments/assets/c8b4ec53-bfa0-4ef6-94a3-466eedd8902c" />
+<img width="590" alt="image" src="https://github.com/user-attachments/assets/94a3e7c0-b6b8-4397-acab-cb11a491582d" />
+
 
 
 
