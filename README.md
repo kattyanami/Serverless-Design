@@ -17,6 +17,8 @@ The request payload you send in the POST request identifies the DynamoDB operati
 
 The following is a sample request payload for a DynamoDB create item operation:
 
+<img width="788" alt="image" src="https://github.com/user-attachments/assets/c8b09e1e-a771-457e-8ffd-19748af06261" />
+
 
 
 
